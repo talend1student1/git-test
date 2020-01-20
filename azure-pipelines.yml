@@ -25,7 +25,7 @@ steps:
         mavenPomFile: '$(project_name)/poms/pom.xml' 
         mavenOptions:
           -Dlicense.path=$(license.secureFilePath)
-          -Dupdatesite.path=$(UPDATESITE_PATH)
+          -Dupdatesite.path=$(UPDATE_SITE_PATH)
           -Dservice.url=$(CLOUD_URL)
           -Dcloud.token=$(CLOUD_TOKEN)
           -Dcloud.publisher.screenshot=true
