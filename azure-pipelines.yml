@@ -6,7 +6,7 @@ pool:
 variables:
 - group: Talend Configuration
 - name: project_name
-  value: 'AZUREPIPELINE'
+  value: 'myproject'
 - name: job_name
   value: 'joindatadb'
 - name: job_version
